@@ -4,7 +4,7 @@ import re
 
 csrf_regexp = re.compile(r"window.csrf ='([a-f0-9-]+)'")
 user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
-base_url = 'https://home.personalcapital.com'
+base_url = 'https://pc-api.empower-retirement.com'
 ident_endpoint = base_url + '/page/login/goHome'
 api_endpoint = base_url + '/api'
 
